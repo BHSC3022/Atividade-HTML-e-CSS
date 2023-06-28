@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 5rem;
+    background-color: black;
+}
+li{
+    margin-left: 30px;
+}
+
+.titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.padrao1 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;   
+    margin-bottom: 10px;
+    color: white;
+}
+
+.padrao2 {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagem {
+    width: 20px;
+    height: 20px;
+}
+
+.style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.imagemCircular {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.b {
+    color: #96D1BD;
+}
